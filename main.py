@@ -11,7 +11,7 @@ from flask_gravatar import Gravatar
 from functools import wraps
 
 app = Flask(__name__)
-app.secret_key = 'stNwPs63enDbDQGAfIxV8wkczBFqa9L1'
+app.secret_key = 'some_secret'
 ckeditor = CKEditor(app)
 Bootstrap(app)
 gravatar = Gravatar(app,
